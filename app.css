@@ -1,0 +1,167 @@
+.faixa-preta {
+  background-color: black;
+  width: 99vw;
+}
+
+.faixa-preta p {
+  color: white;
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  height: 5vh;
+  padding-right: 10vw;
+  align-items: center;
+  /*text-decoration: underline;*/
+  /*font-weight: bold;*/
+}
+
+.faixa-branca {
+  height: 15vh;
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faixa-branca .logo img {
+  width: 25%;
+  height: auto;
+  padding-left: 5vw;
+}
+
+.search-form {
+}
+
+.search-input-button {
+  display: flex;
+  padding-right: 10vw;
+}
+
+input[type="submit"] {
+  width: 7vw;
+  background-color: #c33d3d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 5vh;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="text"] {
+  height: 4vh;
+  width: 20vw;
+  padding-bottom: 1px;
+}
+
+.faixa-vermelha {
+  background-color: #c33d3d;
+  height: 6vh;
+  width: 99vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.faixa-vermelha p {
+    color: white;
+}
+
+.body-geral {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.body-side-bar {
+    margin-left: 5vw;
+    width: 15vw;
+    height: 50vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.body-side-bar ul li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.body-content .body-content-1 {
+    width: 70vw;
+    height: 25vh;
+    background-color: gray;
+    margin-left: 1.5vw;
+}
+
+.body-content .body-content-2    {
+    width: 70vw;
+    height: 25vh;
+    background-color: white;
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+}
+
+.footer-general {
+    background-color: #c33d3d;
+    width: 86.5vw;
+    height: 15vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
